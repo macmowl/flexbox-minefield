@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.board {
+    background-color: #cbcbcb;
+    display: flex;
+    flex-flow: row wrap;
+    width: 224px;
+    height: 224px;
+    margin: auto;
+    list-style-type: none;
+    outline: 4px solid #cbcbcb;
+    border-top: 4px solid #929292;
+    border-left: 4px solid #929292;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+}
+
+li {
+width: 26px;
+height: 26px;
+order: 64;
+}
+
+
+[class^='button'] {
+    width: 24px;
+    height: 24px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid #929292;
+    border-bottom: 2px solid #929292;
+}
+
+[class^='empty'], [class^='item1'], [class^='item2'], [class^='item3'], [class^='bomb'] {
+    border-right: 2px dashed #929292;
+    border-bottom: 2px dashed #929292;
+}
+
+.bomb1 {order: 2;}
+.bomb2 {order: 6;}
+.bomb3 {order: 18;}
+.bomb4 {order: 33;}
+.bomb5 {order: 45;}
+.bomb6 {order: 47;}
+.bomb7 {order: 50;}
+.bomb8 {order: 51;}
+.bomb9 {order: 52;}
+.bomb10 {order: 62;}
+
+.button1 {order: 48;}
+.button2 {order: 49;}
+.button3 {order: 53;}
+.button4 {order: 55;}
+.button5 {order: 56;}
+.button6 {order: 57;}
+.button7 {order: 58;}
+.button8 {order: 59;}
+.button9 {order: 60;}
+.button10 {order: 61;}
+.button11 {order: 63;}
+.button12 {order: 64;}
+
+
+.item11 {order: 1;}
+.item12 {order: 3;}
+.item13 {order: 5;}
+.item14 {order: 7;}
+.item15 {order: 13;}
+.item16 {order: 14;}
+.item17 {order: 15;}
+.item18 {order: 17;}
+.item19 {order: 19;}
+.item110 {order: 27;}
+.item111 {order: 34;}
+.item112 {order: 36;}
+.item113 {order: 37;}
+.item114 {order: 39;}
+.item115 {order: 40;}
+
+.item21 {order: 9;}
+.item22 {order: 10;}
+.item23 {order: 11;}
+.item24 {order: 25;}
+.item25 {order: 26;}
+.item26 {order: 38;}
+.item27 {order: 41;}
+.item28 {order: 46;}
+
+.item31 {order: 42;}
+.item32 {order: 43;}
+.item33 {order: 44;}
+.item34 {order: 54;}
+
+
+.empty1 {order: 4;}
+.empty2 {order: 8;}
+.empty3 {order: 12;}
+.empty4 {order: 16;}
+.empty5 {order: 20;}
+.empty6 {order: 21;}
+.empty7 {order: 22;}
+.empty8 {order: 23;}
+.empty9 {order: 24;}
+.empty10 {order: 28;}
+.empty11 {order: 29;}
+.empty12 {order: 30;}
+.empty13 {order: 31;}
+.empty14 {order: 32;}
+.empty15 {order: 35;}
