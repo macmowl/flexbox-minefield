@@ -40,9 +40,29 @@ order: 64;
     border-bottom: 2px solid #929292;
 }
 
+[class^='button']:hover {
+    width: 24px;
+    height: 24px;
+    border-top: 2px solid #929292;
+    border-left: 2px solid #929292;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
 [class^='empty'], [class^='item1'], [class^='item2'], [class^='item3'], [class^='bomb'] {
     border-right: 2px dashed #929292;
     border-bottom: 2px dashed #929292;
+}
+
+[class^='button'] img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+}
+
+[class^="button"] img:hover {
+    opacity: 1;
 }
 
 .bomb1 {order: 2;}
